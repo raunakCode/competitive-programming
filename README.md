@@ -1,2 +1,2 @@
 # competitive-programming
-Contains all CP 
+Contains all CP files
