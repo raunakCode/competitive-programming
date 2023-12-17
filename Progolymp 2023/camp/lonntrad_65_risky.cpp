@@ -38,7 +38,7 @@ void rec(vi nodes) {
 
 	random_device rd;
 	mt19937 g(rd());
-	shuffle(all(nodes), g); // this gets only 10 points without this shuffle
+	shuffle(all(nodes), g); // this allows it to get 65p, 10% of the time :P
 	vi temp = {nodes[0], nodes[1], nodes[2]};
 
 	rep(i, 0, sz(nodes)) {
